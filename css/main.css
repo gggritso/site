@@ -100,7 +100,7 @@ article > h1 {
 	padding-bottom: 0;
 }
 
-article > caption {
+article > .post-subtitle {
 	font-size: 1.25em;
 	letter-spacing: -0.04em;
 
@@ -117,7 +117,7 @@ article > caption {
 		line-height: 30px;
 	}
 
-	article > caption {
+	article > .post-subtitle {
 
 	}
 
@@ -139,7 +139,7 @@ article > caption {
 		line-height: 33px;
 	}
 
-	article > caption {
+	article > .post-subtitle {
 
 	}
 
