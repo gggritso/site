@@ -1,0 +1,23 @@
+# Site settings
+title: George Gritsouk
+email: george.gritsouk@gmail.com
+description: "George Gritsouk, personal site. Articles about development, mostly."
+baseurl: ""
+url: "http://gggritso.com"
+twitter_username: gggritso
+github_username:  gggritso
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+kramdown:
+  input: GFM
+  extensions: [smart]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
