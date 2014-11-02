@@ -11,6 +11,9 @@ github_username:  gggritso
 markdown: kramdown
 permalink: pretty
 
+exclude:
+  - divshot.json
+
 kramdown:
   input: GFM
   extensions: [smart]

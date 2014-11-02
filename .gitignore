@@ -6,6 +6,7 @@ libs/
 
 _site
 divshot.json
+.divshot-cache
 
 *.orig
 *.swo
