@@ -12,6 +12,4 @@ I’m tidy and precise in all things. I value pragmatism, clarity, character, an
 
 I've written REST APIs, data viz dashboards, metrics collection systems, machine learning projects. I've done QA and helped train new employees. I've assembled chairs and shelves. I've set up cloud servers, written SQL queries. I've done UI work and it was hard. I've worked with MongoDB, Flask, jQuery, mercurial, d3, Postgres, AWS, Snap.svg, Bootstrap, Django, Foundation, git, Ractive.js and a dozen others not even worth mentioning. I'm a dabbler, and I think that's a good thing. I'm prone to tinkering, and that's a bad thing.
 
-My one-line résumé is "I think for myself but respond well to instruction."
-
 I don't mind email, so _george_ `dot` _gritsouk_ `at` _gmail_ if in doubt.
