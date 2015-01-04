@@ -26,6 +26,11 @@ p {
 	text-indent: 20px;
 }
 
+pre {
+	font-size: 0.75em;
+	line-height: 1.1em;
+}
+
 .page-content > p {
 	text-align: center;
 }
