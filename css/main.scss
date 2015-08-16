@@ -61,7 +61,7 @@ a {
 
 	text-decoration: none;
 
-	@include transition(0.25s color;)
+	@include transition(0.25s color);
 }
 
 a:hover {
