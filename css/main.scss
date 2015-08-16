@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @import './normalize';
 @import './prism';
 
@@ -10,20 +9,20 @@
 
 /* TEXT */
 body {
-	color: $chocolate;
-	background-color: $beige;
+	background-color: $black;
+	color: $beige;
 
 	font-family: "calluna-1", "calluna-2", "Georgia", serif;
 }
 
 ::selection {
-	color: $beige;
-	background: $chocolate;
+	background: $beige;
+	color: $chocolate;
 }
 
 ::-moz-selection {
-	color: $beige;
-	background: $chocolate;
+	background: $beige;
+	color: $chocolate;
 }
 
 
@@ -60,12 +59,11 @@ a {
 	color: $tangerine;
 
 	text-decoration: none;
-
-	@include transition(0.25s color);
 }
 
 a:hover {
 	color: $pom;
+	@include transition(0.25s color);
 }
 
 /* IMAGES */
@@ -91,15 +89,26 @@ hr {
 /* QUOTES */
 blockquote {
 	margin-left: 0;
-	border-left: solid 3px $chocolate;
 
 	font-style: italic;
 
 	text-indent: 0;
-}
 
-blockquote p {
-	margin-left: 10px;
+	p {
+		font-size: 1.3em;
+	}
+
+	p:first-of-type {
+		margin-top: 0;
+		text-indent: -15px;
+		&::before {
+			content: "“ ";
+		}
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
 }
 
 /* TYPOGRAPHY */
@@ -252,10 +261,6 @@ article > .post-subtitle {
 	height: auto !important;
 	height: 100%;
 	margin-bottom: -50px;
-
-	-webkit-transition: 0.1s padding;
-	-o-transition: 0.1s padding;
-	transition: 0.1s padding;
 }
 
 @media screen and (min-width: 767px) {

@@ -4,7 +4,7 @@ layout:	post
 
 Well,
 
-I'm 24 years old, and I'm a full-stack web developer in Toronto, Canada. I have a degree in Nanotechnology Engineering from the University of Waterloo.
+I'm 25 years old, and I'm a full-stack web developer in Toronto, Canada. I have a degree in Nanotechnology Engineering from the University of Waterloo.
 
 I listen to a ton of [music](http://www.rdio.com/people/gggritso/), I watch and re-watch movies, I like good TV and I do a bad job of reading enough books. I write, and hate every word of it; [tweeting](http://twitter.com/gggritso) is easier. I play pool pretty well and I'm a mediocre cook but I'm learning. Sometimes I [publish code](https://github.com/gggritso/).
 
