@@ -1,6 +1,6 @@
 ---
 title: Quantum Entanglement in Plain-ish English
-subtitle: With many simplications and bad assumptions
+subtitle: With many simplifications and bad assumptions
 permalink: quantum-entanglement
 ---
 
