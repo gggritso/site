@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Dewording</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="//use.typekit.net/zmk5vzn.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<style>
 
 		/* STYLE */
 		body {
-			font-family: "Merriweather", "Georgia", serif;
-			background-color: #ecf0f1;
-			color: #333;
+    	font-family: "calluna-1", "calluna-2", "Georgia", serif;
+    	background-color: #222222;
+    	color: #EEEADD;
 
 			font-size: 18px;
 		}
@@ -56,7 +57,7 @@
 		input[type=text] {
 			border: none;
 			background-color: inherit;
-			color: #2980b9;
+      color: #E21B5A;
 			font-size: inherit;
 			font-family: inherit;
 			width: 80%;
@@ -176,7 +177,7 @@
 <body>
 
 	<div class="wrapper">
-		<h1>Dewording</h1>
+		<h1>Scattegories</h1>
 		<input type="text" id="game-url"></input>
 
 		<div class="actions">
@@ -188,7 +189,7 @@
 		</div>
 
 		<footer>
-			<span>George Gritsouk, 2013</span>
+			<span>George Gritsouk, 2015</span>
 		</footer>
 
 	</div>
@@ -201,7 +202,7 @@
 			LETTERS = 'A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, R, S, T'.split( ', ' ),
 			PICKED = [],
 			CATEGORIES = [
-			'Baby foods', 'Famous duos and trios', 'Things found in a desk', 'Vacation spots', 'Swear words', '10+ Letter words', ' Diseases', 'Words associated with money', 'Movies', 'Books', 'Beers', 'Candy', 'Items in a vending machine', 'Games', 'Things you wear', 'Things at a circus', 'Things at a pharmacy', 'Capitals', 'Fictional characters', 'Historical figures', 'Athletes', 'Magazines', 'Menu items', 'Fast food', 'Footwear', 'Things you put on your face', 'Something you keep hidden', 'Things with tails', 'Sports equipment', 'Crimes', 'Punishments', 'Car parts', 'Part of the reproductive system', 'Parts of speech', 'Weapons', 'Things at the beach', 'Things at the club', 'Things you see in New York', 'Things you see in Europe', 'European countries', 'Items in a fridge', 'Colours', 'Tools', 'Gadgets', 'Kitchen equipment', 'Furniture', 'Websites', 'Injuries', 'Things that are loud', 'Video game lingo', 'Magical beings', 'Acronyms', 'Things that have stripes', 'Seafood', 'Words ending in N', 'Words with double letters', 'Words with 3 of the same letter', 'Names in movie titles', 'Olympic events', 'Things you get tickets for', 'Things you do at work', 'Actions that get you slapped', 'Things you should not touch', 'Things you make', 'Things that hurt', 'Animal noises', 'Software', 'Things you save up for', 'Things you store items in', 'Things you sit on/in', 'Reasons to make a phone call', 'Thing that make you smile', 'Titles people can have', 'Things that have buttons', 'Things that have wheels', 'Drugs', 'Hobbies', 'Racial slurs', 'Things that are difficult to accomplish', 'Things not to talk about on a date', 'Things that get you out of trouble', '4-Letter words', 'Things in a sandwich', 'Things in a bathroom', 'Things in a brothel', 'Action hero characters', 'Things that get you high', 'Things that are also stripper names', 'Exercise equipment', 'Things that are sharp', 'Electronics brands', 'Things that protect you from the sun', 'Things that are gooey', 'Colours', 'Soft drinks', 'Cartoon character', 'Paint colours', 'Teacher names', 'University courses', 'Things you’re afraid of', 'Occupations', 'Chores', 'Things parents say', 'TV shows', 'Places you hide', 'Liquors', 'Cars', 'Things you wouldn’t want for Christmas', 'People you don’t want to sext you', 'Thing that are not kosher', 'Things Amish people have', 'Things that should come by the bucket', 'Things that should never ever fly', 'Things you do when you are wasted', 'Countries', 'Nicolas Cage movies', 'Reasons to stay home', 'Sidekicks', 'Things white people like', 'Super powers', 'Things to give up for lent', 'Things that are cold', 'A boy’s name', 'School supplies', 'Insects', 'Breakfast foods', 'Things found in the ocean', 'Things in the desert', 'Underground things', 'Famous females', 'Things in fairy tales', 'People in uniform', 'Things you plug in', 'Things that grow', 'Ways to say hi and bye', 'Heroes', 'Things that are black', 'Things in a sci-fi movie', 'College majors', 'Things in a souvenir shop', 'Things that kids play with', 'Excuses for being late', 'Things that jump/bounce', 'Pizza toppings', 'Things in the sky', 'Occupations', 'Fish', 'Personality traits', 'Something you’re afraid of', 'Kinds of candy', 'Things you buy when you’re sad', 'Diseases', 'Things that are sticky', 'Medical terms', 'Ways to get from here to there', 'Things in the wild west', 'Things you replace', 'Things with motors', 'Words ending in “ly”', 'Hallowe’en Costumes', 'Things that are bright', 'Things that are soft'
+			'Baby foods', 'Famous duos and trios', 'Things found in a desk', 'Vacation spots', 'Swear words', '10+ Letter words', 'Diseases', 'Words associated with money', 'Movies', 'Books', 'Beers', 'Candy', 'Items in a vending machine', 'Games', 'Things you wear', 'Things at a circus', 'Things at a pharmacy', 'Capitals', 'Fictional characters', 'Historical figures', 'Athletes', 'Magazines', 'Menu items', 'Fast food', 'Footwear', 'Things you put on your face', 'Something you keep hidden', 'Things with tails', 'Sports equipment', 'Crimes', 'Punishments', 'Car parts', 'Part of the reproductive system', 'Parts of speech', 'Weapons', 'Things at the beach', 'Things at the club', 'Things you see in New York', 'Things you see in Europe', 'European countries', 'Items in a fridge', 'Colours', 'Tools', 'Gadgets', 'Kitchen equipment', 'Furniture', 'Websites', 'Injuries', 'Things that are loud', 'Video game lingo', 'Magical beings', 'Acronyms', 'Things that have stripes', 'Seafood', 'Words ending in N', 'Words with double letters', 'Words with 3 of the same letter', 'Names in movie titles', 'Olympic events', 'Things you get tickets for', 'Things you do at work', 'Actions that get you slapped', 'Things you should not touch', 'Things you make', 'Things that hurt', 'Animal noises', 'Software', 'Things you save up for', 'Things you store items in', 'Things you sit on/in', 'Reasons to make a phone call', 'Thing that make you smile', 'Titles people can have', 'Things that have buttons', 'Things that have wheels', 'Drugs', 'Hobbies', 'Racial slurs', 'Things that are difficult to accomplish', 'Things not to talk about on a date', 'Things that get you out of trouble', '4-Letter words', 'Things in a sandwich', 'Things in a bathroom', 'Things in a brothel', 'Action hero characters', 'Things that get you high', 'Things that are also stripper names', 'Exercise equipment', 'Things that are sharp', 'Electronics brands', 'Things that protect you from the sun', 'Things that are gooey', 'Colours', 'Soft drinks', 'Cartoon character', 'Paint colours', 'Teacher names', 'University courses', 'Things you’re afraid of', 'Occupations', 'Chores', 'Things parents say', 'TV shows', 'Places you hide', 'Liquors', 'Cars', 'Things you wouldn’t want for Christmas', 'People you don’t want to sext you', 'Thing that are not kosher', 'Things Amish people have', 'Things that should come by the bucket', 'Things that should never ever fly', 'Things you do when you are wasted', 'Countries', 'Nicolas Cage movies', 'Reasons to stay home', 'Sidekicks', 'Things white people like', 'Super powers', 'Things to give up for lent', 'Things that are cold', 'A boy’s name', 'School supplies', 'Insects', 'Breakfast foods', 'Things found in the ocean', 'Things in the desert', 'Underground things', 'Famous females', 'Things in fairy tales', 'People in uniform', 'Things you plug in', 'Things that grow', 'Ways to say hi and bye', 'Heroes', 'Things that are black', 'Things in a sci-fi movie', 'College majors', 'Things in a souvenir shop', 'Things that kids play with', 'Excuses for being late', 'Things that jump/bounce', 'Pizza toppings', 'Things in the sky', 'Occupations', 'Fish', 'Personality traits', 'Something you’re afraid of', 'Kinds of candy', 'Things you buy when you’re sad', 'Diseases', 'Things that are sticky', 'Medical terms', 'Ways to get from here to there', 'Things in the wild west', 'Things you replace', 'Things with motors', 'Words ending in “ly”', 'Hallowe’en Costumes', 'Things that are bright', 'Things that are soft'
 		];
 
 		function encodeGameURL( cards ) {
