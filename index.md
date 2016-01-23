@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<ul class="posts no-bullet">
+<ul class="posts">
 	<li>
 		<a class="post-link" href="{{ "/about" | prepend: site.baseurl }}">About</a>
 	</li>

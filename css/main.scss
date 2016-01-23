@@ -7,12 +7,24 @@
 @import 'mixins';
 @import 'colours';
 
+/* LAYOUT */
+html {
+	min-height: 100%;
+	position: relative;
+	height: auto;
+}
+
+body {
+	margin: 0 0 50px 0;
+	height: auto;
+}
+
 /* TEXT */
 body {
 	background-color: $black;
 	color: $beige;
 
-	font-family: "calluna-1", "calluna-2", "Georgia", serif;
+	font-family: "PT Serif", "Georgia", serif;
 }
 
 ::selection {
@@ -41,7 +53,15 @@ pre {
 }
 
 .posts {
-	line-height: 1.5;
+	line-height: 1.4;
+
+	padding-left: 0;
+
+	li {
+		list-style: none;
+		padding-bottom: 10px;
+	}
+
 }
 
 .posts,
@@ -110,8 +130,8 @@ blockquote {
 
 /* TYPOGRAPHY */
 article {
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 article > h1 {
@@ -177,28 +197,6 @@ article > .post-subtitle {
 
 }
 
-/* AVATAR */
-.avatar {
-	display: inline-block;
-
-	width: 100px;
-	height: 100px;
-
-	@include border-radius(100px);
-}
-
-/* HEADER */
-.site-header {
-	@include no-select();
-
-	width: 100%;
-
-	padding: 20px 0 0 0;
-
-	text-align: center;
-}
-
-
 /* FOOTER */
 .circle {
 	display: inline-block;
@@ -223,15 +221,15 @@ article > .post-subtitle {
 .site-footer {
 	@include no-select();
 
+	position: absolute;
+	bottom: 0;
+
 	width: 100%;
+	height: 50px;
 
 	padding: 10px 0 10px 0;
 
 	text-align: center;
-}
-
-.site-footer, .push {
-	height: 50px;
 }
 
 @media screen and (min-width: 767px) {
@@ -245,7 +243,7 @@ article > .post-subtitle {
 		font-size: 12px;
 	}
 
-	.site-footer, .push {
+	.site-footer {
 		height: 85px;
 	}
 
@@ -254,13 +252,13 @@ article > .post-subtitle {
 /* CONTENT */
 .page-content {
 	padding: 0 12px;
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin-bottom: -50px;
 }
 
 @media screen and (min-width: 767px) {
+
+	body {
+		margin-bottom: 85px;
+	}
 
 	.page-content {
 		padding: 0 10%;
@@ -276,13 +274,4 @@ article > .post-subtitle {
 		margin-bottom: -85px;
 	}
 
-}
-
-/* MIXINS */
-.no-bullet {
-	padding-left: 0;
-}
-
-.no-bullet li {
-	list-style: none;
 }
