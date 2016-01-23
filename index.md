@@ -4,7 +4,7 @@ layout: page
 
 <ul class="posts">
 	<li>
-		<a class="post-link" href="{{ "/about" | prepend: site.baseurl }}">About</a>
+		<a class="post-link highlighted" href="{{ "/about" | prepend: site.baseurl }}">About</a>
 	</li>
 	<li>—</li>
 {% for post in site.posts %}
