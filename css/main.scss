@@ -1,8 +1,6 @@
 ---
 ---
-
 @import './normalize';
-@import './prism';
 
 @import 'mixins';
 @import 'colours';
@@ -49,6 +47,7 @@ p > code {
 }
 
 pre > code {
+	white-space: pre-wrap;
 	display: block;
 	width: 100%;
 }
@@ -218,7 +217,7 @@ article > .post-subtitle {
 
 	border: solid 3px #4D4741;
 
-	@include border-radius(100px);
+	border-radius: 100px;
 
 	text-align: center;
 
