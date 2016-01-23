@@ -215,7 +215,7 @@ article > .post-subtitle {
 
 	padding-top: 6px;
 
-	border: solid 3px #4D4741;
+	border: solid 3px darken($chocolate, 10%);
 
 	border-radius: 100px;
 
@@ -223,7 +223,6 @@ article > .post-subtitle {
 
 	font-size: 8px;
 
-	color: #D3CCAB;
 	background-color: darken($chocolate, 10%);
 }
 
