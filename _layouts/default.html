@@ -7,9 +7,9 @@
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="{{ site.description }}">
+
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-		<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	</head>
 
@@ -19,7 +19,5 @@
 		<footer class="site-footer">
 			<div class="circle">2016</div>
 		</footer>
-
-		<script src="{{ "/js/prism.js" | prepend: site.baseurl }}"></script>
 	</body>
 </html>
