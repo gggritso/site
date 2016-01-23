@@ -16,6 +16,7 @@ html {
 
 body {
 	margin: 0 0 50px 0;
+	padding: 0 10px;
 	height: auto;
 }
 
@@ -43,30 +44,38 @@ blockquote > p {
 	text-indent: 0;
 }
 
-pre {
-	font-size: inherit;
-	line-height: 1;
+p > code {
+	padding: 5px;
 }
 
-.page-content > p {
-	text-align: center;
+pre > code {
+	display: block;
+	width: 100%;
+}
+
+code {
+	font-size: 16px;
+	line-height: 1.2;
+
+	background-color: darken($chocolate, 10%);
+	padding: 10px;
+	border-radius: 3px;
+
 }
 
 .posts {
+
 	line-height: 1.4;
 
 	padding-left: 0;
+
+	text-align: center;
 
 	li {
 		list-style: none;
 		padding-bottom: 10px;
 	}
 
-}
-
-.posts,
-.post-title {
-	text-align: center;
 }
 
 
@@ -141,6 +150,7 @@ article > h1 {
 
 	margin-bottom: 0.1em;
 	padding-bottom: 0;
+	text-align: center;
 }
 
 article > .post-subtitle {
@@ -223,6 +233,8 @@ article > .post-subtitle {
 
 	position: absolute;
 	bottom: 0;
+	right: 0;
+	left: 0;
 
 	width: 100%;
 	height: 50px;
@@ -250,28 +262,19 @@ article > .post-subtitle {
 }
 
 /* CONTENT */
-.page-content {
-	padding: 0 12px;
-}
-
 @media screen and (min-width: 767px) {
 
 	body {
-		margin-bottom: 85px;
-	}
-
-	.page-content {
+		margin: 0 0 85px 0;
 		padding: 0 10%;
-		margin-bottom: -85px;
 	}
 
 }
 
 @media screen and (min-width: 1279px) {
 
-	.page-content {
+	.body {
 		padding: 0 30%;
-		margin-bottom: -85px;
 	}
 
 }
