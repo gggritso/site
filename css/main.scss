@@ -31,10 +31,6 @@ blockquote > p {
 	text-indent: 0;
 }
 
-p {
-	text-indent: 20px;
-}
-
 pre {
 	font-size: inherit;
 	line-height: 1;
@@ -102,7 +98,8 @@ blockquote {
 		margin-top: 0;
 		text-indent: -15px;
 		&::before {
-			content: "“ ";
+			content: "“";
+			margin-right: 2px;
 		}
 	}
 
