@@ -1,12 +1,13 @@
 ---
 ---
-@import './normalize';
+@import 'normalize';
 
 @import 'mixins';
-@import 'colours';
+@import 'palette';
 
 @import 'layout';
 @import 'article';
+@import 'body';
 @import 'blockquotes';
 @import 'anchors';
 @import 'images';
@@ -14,13 +15,6 @@
 @import 'breaks';
 @import 'posts-list';
 @import 'footer';
-
-body {
-	background-color: $black;
-	color: $beige;
-
-	font-family: "PT Serif", "Georgia", serif;
-}
 
 ::selection {
 	background: $beige;

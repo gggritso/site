@@ -10,7 +10,12 @@
 
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+		<style type="text/css">
+			{% capture include_to_scssify %}
+				{% include critical.scss %}
+			{% endcapture %}
+			{{ include_to_scssify | scssify }}
+		</style>
 	</head>
 
 	<body>
@@ -19,5 +24,7 @@
 		<footer class="site-footer">
 			<div class="circle">2016</div>
 		</footer>
+
+		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	</body>
 </html>
