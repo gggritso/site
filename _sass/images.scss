@@ -1,0 +1,11 @@
+img {
+	display: block;
+	width: 100%;
+}
+
+img[src$=".gif"] {
+	display: inline-block;
+
+	margin: 0;
+	width: auto;
+}

@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<ul class="posts">
+<ul class="posts-list">
 	<li>
 		<a class="post-link highlighted" href="{{ "/about" | prepend: site.baseurl }}">About</a>
 	</li>

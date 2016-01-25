@@ -1,0 +1,17 @@
+.posts-list {
+	padding-left: 0;
+
+	line-height: 1.4;
+
+	text-align: center;
+
+	li {
+		list-style: none;
+		padding-bottom: 10px;
+	}
+
+	.post-link.highlighted {
+		font-size: 1.5em;
+	}
+
+}

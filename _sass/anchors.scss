@@ -1,0 +1,11 @@
+a {
+  color: $tangerine;
+  text-decoration: none;
+
+  @include transition(0.25s color);
+
+  &:hover {
+    color: $pom;
+  }
+
+}

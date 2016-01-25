@@ -1,0 +1,19 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 50px 0;
+	padding: 0 20px;
+
+  @media screen and (min-width: 767px) {
+  	margin: 0 0 85px 0;
+  	padding: 0 10%;
+  }
+
+  @media screen and (min-width: 1279px) {
+  	padding: 0 20%;
+  }
+
+}
