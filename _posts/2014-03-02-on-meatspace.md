@@ -4,12 +4,7 @@ subtitle: Making connections with random strangers over the internet using only 
 permalink:	on-meatspace
 ---
 
-![change places]({{ "/assets/chaaaaange_places.gif" | prepend: site.baseurl }})
-![my hero]({{ "/assets/my_hero.gif" | prepend: site.baseurl }})
-![running]({{ "/assets/running.gif" | prepend: site.baseurl }})
-![chee]({{ "/assets/chee.gif" | prepend: site.baseurl }})
-![wiggle]({{ "/assets/wiggle.gif" | prepend: site.baseurl }})
-![skyhook]({{ "/assets/skyhook.gif" | prepend: site.baseurl }})
+![change places]({{ "/assets/chaaaaange_places.gif" | prepend: site.baseurl }}) ![my hero]({{ "/assets/my_hero.gif" | prepend: site.baseurl }}) ![running]({{ "/assets/running.gif" | prepend: site.baseurl }}) ![chee]({{ "/assets/chee.gif" | prepend: site.baseurl }}) ![wiggle]({{ "/assets/wiggle.gif" | prepend: site.baseurl }}) ![skyhook]({{ "/assets/skyhook.gif" | prepend: site.baseurl }})
 
 
 ## tl;dr
@@ -64,4 +59,3 @@ The details don’t matter so much to me. Here is what matters: never in my life
 - [Jen’s explanation of the creation of Meatspace Chat](http://ednapiranha.com/2013/chat-meatspaces/)
 - [Jen’s thoughts on the social mechanics of Meatspace Chat](http://ednapiranha.com/2013/meatspace-chat-social-constraints/)
 - [World Building in a Crazy World](http://number27.org/wb-crisis)
-
