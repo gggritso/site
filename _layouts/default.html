@@ -22,7 +22,7 @@
 		{{ content }}
 
 		<footer class="site-footer">
-			<div class="circle">2016</div>
+			<div class="circle">{{ 'now' | date: "%Y" }}</div>
 		</footer>
 
 		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
