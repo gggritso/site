@@ -12,6 +12,11 @@ body {
   	padding: 0 10%;
   }
 
+  @media screen and (min-width: 1280px) {
+  	margin: 0 0 115px 0;
+  	padding: 0 20%;
+  }
+
   @media screen and (min-width: 1600px) {
   	padding: 0 25%;
   }
