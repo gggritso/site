@@ -9,7 +9,7 @@ Vimmy is a simple extension for Safari I wrote to add some vim keybindings. I di
 ## Commands
 
 - `hjkl` to scroll left/down/up/right
-- `gg` and shift+g to scroll to top/bottom
+- `gg` and `shift+g` to scroll to top/bottom
 - `f` to click on elements like links, inputs, buttons
 - `shift-f` to open links in a new background tab
 - `esc` and `ctrl+[` to break out of link mode
