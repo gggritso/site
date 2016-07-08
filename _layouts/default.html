@@ -11,9 +11,14 @@
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@{{ site.twitter_username }}">
 		<meta name="twitter:creator" content="@{{ site.twitter_username }}">
-		<meta name="twitter:url" content="{{ site.url }}{{ page.url}}">
+		<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 		<meta name="twitter:title" content="{{ page.title }}">
 		<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+
+		<meta property="og:title" content="{{ page.title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+		<meta property="og:site_name" content="{{ site.title }}" />
 
 		<meta property="os:repo" content="https://github.com/{{ site.github_username }}/gggritso.github.io" />
 		<meta property="os:rcs_type" content="git" />
