@@ -15,6 +15,10 @@
 		<meta name="twitter:title" content="{{ page.title }}">
 		<meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
 
+		<meta property="os:repo" content="https://github.com/{{ site.github_username }}/gggritso.github.io" />
+		<meta property="os:rcs_type" content="git" />
+		<meta property="os:src" content="git@github.com:{{ site.github_username }}/gggritso.github.io.git" />
+
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 		<style type="text/css">
