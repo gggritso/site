@@ -1,9 +1,13 @@
 blockquote {
 	margin-left: 0;
+	padding-left: 1em;
+	border-left: 2px solid $beige;
 
 	font-style: italic;
 
 	text-indent: 0;
+
+	opacity: 0.9;
 
 	p {
 		font-size: 1em;
@@ -11,11 +15,6 @@ blockquote {
 
 	p:first-of-type {
 		margin-top: 0;
-		text-indent: -15px;
-		&::before {
-			content: "“";
-			margin-right: 2px;
-		}
 	}
 
 	p:last-of-type {
