@@ -21,4 +21,5 @@ The Safari Extension Gallery likes to act up. If you have any problems with down
 - `ctrl-b` to move up a full page
 - `gt` to go to the next tab
 - `gT` to move to the previous tab
+- `x` to close the current tab
 - `shift-h` and `shift-l` to go back and forward in history
