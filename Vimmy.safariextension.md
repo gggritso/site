@@ -22,4 +22,5 @@ The Safari Extension Gallery likes to act up. If you have any problems with down
 - `gt` to go to the next tab
 - `gT` to move to the previous tab
 - `x` to close the current tab
+- `r` to reload the current tab
 - `shift-h` and `shift-l` to go back and forward in history
