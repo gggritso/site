@@ -17,8 +17,8 @@ Vimmy is a simple extension for Safari I wrote to add some vim keybindings. I di
 - `ctrl-u` to move up half a page
 - `ctrl-f` to move down a full page
 - `ctrl-b` to move up a full page
-- `gt` to go to the next tab
-- `gT` to move to the previous tab
+- `gt` and `shift-k` to go to the next tab
+- `gT` and `shift-J` to move to the previous tab
 - `x` to close the current tab
 - `r` to reload the current tab
 - `shift-h` and `shift-l` to go back and forward in history
