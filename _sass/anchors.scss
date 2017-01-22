@@ -1,6 +1,5 @@
 a {
   color: $tangerine;
-  text-decoration: none;
 
   @include transition(0.25s color);
 
@@ -12,6 +11,7 @@ a {
     font-size: 1.6em;
     letter-spacing: -0.05em;
     padding: 0.2em;
+    text-decoration: none;
   }
 
 }
