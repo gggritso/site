@@ -1,8 +1,7 @@
 ---
 layout:	post
+title: Vimmy.safariextension
 ---
-
-# Vimmy
 
 Vimmy is a simple extension for Safari I wrote to add some vim keybindings. I didn't like the other options mostly because I thought they were ugly and convoluted. The extension is available on the [Safari Extensions Gallery](https://safari-extensions.apple.com/details/?id=com.gggritso.vimmy-36948PQEY6). You can report bugs and file suggestions on [GitHub](https://github.com/gggritso/Vimmy.safariextension). You will also find downloads for previous releases and some extra documentation.
 
