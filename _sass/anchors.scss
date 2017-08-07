@@ -1,11 +1,11 @@
 a {
-  color: $tangerine;
+  color: $highlight-colour;
   text-decoration: none;
 
   @include transition(0.25s color);
 
   &:hover {
-    color: $pom;
+    color: darken(desaturate(adjust-hue($highlight-colour, -3), 18.23), 7.45)
   }
 
   &.back-button {

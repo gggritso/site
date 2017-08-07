@@ -15,8 +15,8 @@ code {
 	font-size: 0.8em;
 	line-height: 1.2;
 
-	background-color: darken($chocolate, 10%);
-	color: $black;
+	background-color: $highlight-colour;
+	color: $background-colour;
 
 	border-radius: 3px;
 }

@@ -17,11 +17,11 @@
 @import 'footnotes';
 
 ::selection {
-	background: $beige;
-	color: $chocolate;
+	background: $text-colour;
+	color: $highlight-colour;
 }
 
 ::-moz-selection {
-	background: $beige;
-	color: $chocolate;
+	background: $text-colour;
+	color: $highlight-colour;
 }
