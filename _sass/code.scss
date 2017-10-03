@@ -10,13 +10,13 @@ pre > code {
 }
 
 code {
-	padding: 5px;
+	padding: 5px 10px;
 
 	font-size: 0.8em;
 	line-height: 1.2;
 
-	background-color: $highlight-colour;
-	color: $background-colour;
+	background-color: lighten($background-colour, 5%);
+	color: lighten($text-colour, 5%);
 
 	border-radius: 3px;
 }
