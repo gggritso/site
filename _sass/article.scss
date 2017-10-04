@@ -8,7 +8,7 @@ article {
   }
 
   @media screen and (min-width: 1279px) {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 1.5;
   }
 
@@ -28,7 +28,7 @@ article {
     }
 
     @media screen and (min-width: 1279px) {
-      font-size: 2.5em;
+      font-size: 2.0em;
       letter-spacing: -0.04em;
     }
 
@@ -42,12 +42,14 @@ article {
 
     font-weight: 300;
     text-align: center;
+    text-decoration: underline;
 
     @media screen and (min-width: 767px) {
       letter-spacing: -0.02em;
     }
 
     @media screen and (min-width: 1279px) {
+      font-size: 1.1em;
       letter-spacing: -0.04em;
     }
 
