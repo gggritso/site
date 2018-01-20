@@ -13,9 +13,6 @@ layout: page
 	<li>
 		<a class="post-link" href="{{ "/Vimmy.safariextension" | prepend: site.baseurl }}">Vimmy.safariextension</a>
 	</li>
-	<li>
-		<a class="post-link" href="{{ "/scattegories" | prepend: site.baseurl }}">Scattegories</a>
-	</li>
 </ul>
 
 <h2>Essays</h2>
