@@ -1,5 +1,6 @@
 ---
 layout: page
+subtitle: Info, projects, essays
 ---
 
 <ul class="posts-list">
