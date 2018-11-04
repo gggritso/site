@@ -14,7 +14,8 @@ This is a set of rules I set for our internal JavaScript style guide after findi
 
 ## Use Good Grammar
 - use plural and singular forms correctly. Array variables should always have plural names (e.g. `users`, `promises` but never `var user = []`). This means avoiding vague names like `collection` and `list`, and specifying exactly what the list is of (e.g. `$elements`, `links`)
-- use auxiliary verbs to describe boolean values or functions that return boolean values. Choose names like `canShowElement` and `shouldReturnHome` over `showElement` and `returnHome` or `showingElement`
+- use a noun-verb-noun format to name loose booleans. The name of the boolean should make sense as a sentence fragment. For example, `viewCanBeReloaded`, `userHasPaymentInformation`
+- use auxiliary verbs to describe property boolean values or methods that return boolean values. Choose names like `view.canShowCalendar` and `navigation.shouldReturnHome` over `showElement` and `returnHome` or `showingCalendar`
 - use primary verbs for functions and methods. Choose names like `goToNextPage()` and `fetchUser()` over `nextPage()` and `user()`
 - use prepositions in functions that operate on multiple objects. Choose names like `setOrderAddressOfUser` (or `setAddressOfUserOrder` as appropriate) over `setUserOrderAddress`
 - avoid homonyms if possible. For example, `opening` could be the progressive tense of the verb “open” or it could be a noun meaning a gap or hole, or it could be an adjective describing something that happens at the beginning of something. Make exceptions for this if the previous rule applies
