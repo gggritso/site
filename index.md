@@ -3,20 +3,7 @@ layout: page
 subtitle: Info, projects, essays
 ---
 
-<ul class="posts-list">
-	<li>
-		<a class="post-link highlighted" href="{{ "/about" | prepend: site.baseurl }}">About</a>
-	</li>
-</ul>
-
-<h2>Projects</h2>
-<ul class="posts-list">
-	<li>
-		<a class="post-link" href="{{ "/Vimmy.safariextension" | prepend: site.baseurl }}">Vimmy.safariextension</a>
-	</li>
-</ul>
-
-<h2>Essays</h2>
+<h1>George Gritsouk</h1>
 
 <ul class="posts-list">
 {% for post in site.posts %}
