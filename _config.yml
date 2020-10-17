@@ -4,8 +4,6 @@ email: george.gritsouk@gmail.com
 description: "George Gritsouk, personal site. Articles about development, mostly."
 baseurl: ""
 url: "https://gggritso.com"
-twitter_username: gggritso
-github_username:  gggritso
 
 # Build settings
 markdown: kramdown
