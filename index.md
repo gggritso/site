@@ -3,7 +3,7 @@ layout: page
 subtitle: Info, projects, essays
 ---
 
-<h1>George Gritsouk</h1>
+<h1>Strict Machine</h1>
 
 <ul class="posts-list">
 	<li>
