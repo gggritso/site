@@ -78,5 +78,3 @@ Bend the aliases to how you think and work, not the other way around. Let your a
 I got a few great suggestions from Reddit comments on this post:
 
 `unmerged = diff --name-only --diff-filter=U` by [kasbah](https://www.reddit.com/user/kasbah) and `remotes = remote -v` by [WrongSubreddit](https://www.reddit.com/user/WrongSubreddit) are my favourites. Thank you!
-
-A full list of my Git aliases is in my [dotfiles repo](https://github.com/gggritso/dotfiles/blob/master/gitconfig.symlink).

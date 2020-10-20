@@ -1,9 +1,8 @@
 # Site settings
-title: George Gritsouk
-email: george.gritsouk@gmail.com
-description: "George Gritsouk, personal site. Articles about development, mostly."
+title: Strict Machine
+description: "Articles and also some articles"
 baseurl: ""
-url: "https://gggritso.com"
+url: "https://strict-machine.com"
 
 # Build settings
 markdown: kramdown
