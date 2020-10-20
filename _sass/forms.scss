@@ -1,0 +1,31 @@
+form {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.75em;
+
+  input {
+    font-family: inherit;
+  }
+
+  input[type="submit"] {
+    border: none;
+    background: transparent;
+    font-size: 1.1em;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  textarea {
+    width: 100%;
+
+    font-family: inherit;
+    font-size: inherit;
+    padding: 10px;
+    border-color: $text-colour;
+  }
+}
