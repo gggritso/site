@@ -16,10 +16,10 @@
 
 ::selection {
 	background: $text-colour;
-	color: $highlight-colour;
+	color: $text-select-colour;
 }
 
 ::-moz-selection {
 	background: $text-colour;
-	color: $highlight-colour;
+	color: $text-select-colour;
 }

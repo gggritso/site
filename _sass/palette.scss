@@ -1,3 +1,6 @@
 $background-colour: lighten(#FEF4FF, 2%);
 $highlight-colour: darken(#998FB8, 20%);
-$text-colour: darken($highlight-colour, 15%);
+$text-select-colour: $highlight-colour;
+$text-colour: #000000;
+$link-color: $highlight-colour;
+$link-highlight-color: darken(desaturate(adjust-hue($highlight-colour, -3), 18.23), 7.45);
