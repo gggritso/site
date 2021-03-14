@@ -17,11 +17,17 @@ a {
   &.contact-button {
     padding: 0.2em;
 
-    font-size: 1.4em;
-    letter-spacing: -0.05em;
+    font-size: 0.9em;
+    opacity: 0.9;
+    // letter-spacing: -0.05em;
 
     text-decoration: none;
     color: var(-link-colour);
+    font-family: "Inter", "Helvetica", sans-serif;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em;
 
     &:hover {
       text-decoration: underline;

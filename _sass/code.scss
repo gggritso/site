@@ -7,20 +7,25 @@ p > code {
 pre > code {
 	display: block;
 	width: 100%;
+	padding: 3em;
 
 	white-space: pre-wrap;
+	background: white;
 }
 
 code {
-	padding: 5px 10px;
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	font-family: "Roboto Mono";
+	padding: 2px 7px;
+	margin: 2px 0;
 
-	font-size: 0.7em;
+	font-size: 0.8em;
 	line-height: 1.2;
 
 	color: var(--code-colour);
 	background: var(--code-background-colour);
-
-	border: 1px solid var(--border-colour);
-
-	border-radius: 3px;
+	border: 1px solid var(--code-border-colour);
+	border-radius: 2px;;
 }

@@ -1,13 +1,19 @@
 blockquote {
+	font-family: "Georgia";
 	margin-left: 0;
-	padding-left: 1em;
-	border-left: 2px solid var(--border-colour);
+	padding-left: 2em;
+	padding-right: 2em;
+	// padding-top: 1em;
+	// padding-bottom: 1em;
+	border-left: 2px solid var(--blockquote-border-colour);
+	font-style: italic;
+	white-space: pre-line;
 
 	color: var(--blockquote-colour);
 
 	text-indent: 0;
 
-	opacity: 0.9;
+	opacity: 0.8;
 
 	p {
 		font-size: 1em;

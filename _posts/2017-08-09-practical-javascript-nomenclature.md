@@ -37,7 +37,7 @@ A variable called `clearSearch` is ambiguous. It could specify whether a search 
 ### Specific Meaning
 Variables that have a specific meaning should be called with their assigned meaning as soon as possible, and they should lose meaning when appropriate. Consider this example:
 
-```
+```javascript
 var coordinates = POSITIONING.getUserCoordinates();
 return checkCoordinates( coordinates );
 
@@ -48,7 +48,7 @@ function checkCoordinates( userCoordinates ) {
 
 The names of the variables do not reflect their specific meanings. The method `getUserCoordinates` returns `userCoordinates` by definition. The function `checkCoordinates` checks a `coordinates` variable, by definition. Inside that function, coordinates don’t have any meaning aside from just being coordinates. Also, the verb `check` is too vague for this case. A better version:
 
-```
+```javascript
 var userCoordinates = POSITIONING.getUserCoordinates();
 return areCoordinatesWithinToronto( userCoordinates );
 
@@ -60,7 +60,7 @@ function areCoordinatesWithinToronto( coordinates ) {
 ### Signatures and Arguments
 Here’s an example from an API wrapper:
 
-```
+```javascript
 function getProductByID( parameters ) {
   return $http.get( '/product', parameters );
 }
@@ -68,7 +68,7 @@ function getProductByID( parameters ) {
 
 This is a good example of function signatures not matching their parameters. A function called `getProductByID` strongly implies that it accepts an `id` parameter, which it should:
 
-```
+```javascript
 function getProductByID( id ) {
   return $http.get( '/product', { productID: id });
 }
@@ -79,7 +79,7 @@ These guidelines heavily favour long variable and function names, but there’s 
 
 Renaming long functions requires some creativity to find a good name for the overall operation. Oftentimes, it’s also a sign that some refactoring is in order, to group common operations together. For example, consider this structure:
 
-```
+```html
 <div
   class="range"
   ng-repeat="range in $ctrl.ranges"
@@ -89,7 +89,7 @@ Renaming long functions requires some creativity to find a good name for the ove
 </div>
 ```
 
-```
+```javascript
 function checkIfTimeSlotIsEnabledIsAvailableAndIsWithinRange( range ) {
 
   if ( range.status === 'unavailable' ) return false;

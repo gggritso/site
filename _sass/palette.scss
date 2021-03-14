@@ -1,5 +1,5 @@
 $bright-white: #FFFFFF;
-$off-white: #FAFAFA;
+$off-white: #F9F9FA;
 
 $dark-black: #000000;
 $off-black: #333333;
@@ -8,14 +8,17 @@ $highlighter-yellow: #F2E635;
 $highlighter-pink: #FA2180;
 
 :root {
-  --text-colour: #{$dark-black};
+  --text-colour: #{$off-black};
   --text-select-colour: #{$bright-white};
   --text-select-background-colour: #{$highlighter-pink};
   --background-colour: #{$off-white};
   --link-colour: #{$highlighter-pink};
 
   --heading-background-colour: #{$highlighter-yellow};
-  --code-colour: #{$off-black};
+  --code-colour: #{$highlighter-pink};
   --code-background-colour: #{$bright-white};
+  --code-border-colour: #{rgba( $highlighter-pink, 0.25 )};
+
+  --blockquote-border-colour: #{$highlighter-pink};
   --border-colour: #{$highlighter-yellow};
 }
