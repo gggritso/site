@@ -1,9 +1,9 @@
 ::selection {
-	color: white;
-	background: var(--text-select-colour);
+	color: var(--text-select-colour);
+	background: var(--text-select-background-colour);
 }
 
 ::-moz-selection {
 	color: var(--text-select-colour);
-	background: var(--text-colour);
+	background: var(--text-select-background-colour);;
 }

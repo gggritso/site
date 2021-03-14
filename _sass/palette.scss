@@ -9,10 +9,11 @@ $highlighter-pink: #FA2180;
 
 :root {
   --text-colour: #{$dark-black};
+  --text-select-colour: #{$bright-white};
+  --text-select-background-colour: #{$highlighter-pink};
   --background-colour: #{$off-white};
   --link-colour: #{$highlighter-pink};
 
-  --text-select-colour: #{$highlighter-pink};
   --heading-background-colour: #{$highlighter-yellow};
   --code-colour: #{$off-black};
   --code-background-colour: #{$bright-white};
