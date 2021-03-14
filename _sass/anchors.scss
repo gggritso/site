@@ -13,7 +13,8 @@ a {
     color: $link-highlight-colour;
   }
 
-  &.back-button {
+  &.back-button,
+  &.contact-button {
     padding: 0.2em;
 
     font-size: 1.4em;

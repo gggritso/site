@@ -7,7 +7,7 @@ subtitle: Info, projects, essays
 
 <ul class="posts-list">
 	<li>
-		<a class="post-link" href="/contact">Contact</a>
+		<a class="contact-button" href="/contact">Contact</a>
 	</li>
 </ul>
 
