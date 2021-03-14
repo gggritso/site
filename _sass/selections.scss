@@ -1,0 +1,9 @@
+::selection {
+	color: white;
+	background: $text-select-colour;
+}
+
+::-moz-selection {
+	color: $text-select-colour;
+	background: $text-colour;
+}

@@ -14,13 +14,4 @@
 @import 'posts-list';
 @import 'footnotes';
 @import 'forms';
-
-::selection {
-	color: $text-select-colour;
-	background: $text-colour;
-}
-
-::-moz-selection {
-	color: $text-select-colour;
-	background: $text-colour;
-}
+@import 'selections';
