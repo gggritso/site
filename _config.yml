@@ -8,9 +8,6 @@ url: "https://strict-machine.com"
 markdown: kramdown
 permalink: pretty
 
-exclude:
-  - divshot.json
-
 kramdown:
   input: GFM
   extensions: [smart]
