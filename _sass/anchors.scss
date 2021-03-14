@@ -24,7 +24,7 @@ a {
     color: var(-link-colour);
 
     &:hover {
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     @media screen and (min-width: 1279px) {
