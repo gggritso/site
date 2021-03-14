@@ -1,7 +1,7 @@
 body {
-	background-color: $background-colour;
+	background-color: var(--background-colour);
 
-	color: $text-colour;
+	color: var(--text-colour);
 
 	font-family: "EB Garamond", "Georgia", serif;
 }

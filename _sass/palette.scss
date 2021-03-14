@@ -1,12 +1,20 @@
-$background-colour: #FAFAFA;
+$bright-white: #FFFFFF;
+$off-white: #FAFAFA;
+
+$dark-black: #000000;
+$off-black: #333333;
+
 $highlighter-yellow: #F2E635;
 $highlighter-pink: #FA2180;
-$text-select-colour: #FA2180;
-$heading-background-colour: $highlighter-yellow;
-$text-colour: #000000;
-$link-colour: #FA2180;
-$back-link-colour: $link-colour;
-$link-highlight-colour: darken($link-colour, 20);
-$code-colour: #333333;
-$code-background-colour: #FFFFFF;
-$border-colour: #F2E635;
+
+:root {
+  --text-colour: #{$dark-black};
+  --background-colour: #{$off-white};
+  --link-colour: #{$highlighter-pink};
+
+  --text-select-colour: #{$highlighter-pink};
+  --heading-background-colour: #{$highlighter-yellow};
+  --code-colour: #{$off-black};
+  --code-background-colour: #{$bright-white};
+  --border-colour: #{$highlighter-yellow};
+}

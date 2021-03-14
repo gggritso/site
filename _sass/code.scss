@@ -17,10 +17,10 @@ code {
 	font-size: 0.7em;
 	line-height: 1.2;
 
-	color: $code-colour;
-	background: $code-background-colour;
+	color: var(--code-colour);
+	background: var(--code-background-colour);
 
-	border: 1px solid $border-colour;
+	border: 1px solid var(--border-colour);
 
 	border-radius: 3px;
 }

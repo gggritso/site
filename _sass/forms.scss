@@ -13,7 +13,7 @@ form {
     background: transparent;
     font-size: 1.1em;
     text-decoration: underline;
-    color: $link-colour;
+    color: var(--link-colour);
     text-decoration: none;
     cursor: pointer;
 
@@ -28,7 +28,7 @@ form {
     font-family: inherit;
     font-size: inherit;
     padding: 10px;
-    border: 1px solid $border-colour;
+    border: 1px solid var(--border-colour);
 
     border-radius: 3px;
   }
