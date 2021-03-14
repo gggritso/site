@@ -4,6 +4,7 @@ permalink:	measured-and-managed
 ---
 
 > What gets measured gets managed.
+>
 > — Peter Drucker
 
 I saw that quote for the first time in [The Four Hour Workweek](http://www.fourhourworkweek.com/) and it stuck with me ever since. The app I’m looking at right now is called [Reporter](http://www.reporter-app.com/), and I use it to measure. The management—I’m hoping—will come later.

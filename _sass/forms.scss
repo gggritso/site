@@ -1,7 +1,8 @@
 form {
   width: 75%;
-  margin: auto;
-  text-align: center;
+  margin-top: 3em;
+
+  text-align: left;
   font-size: 0.75em;
 
   input {
@@ -12,6 +13,8 @@ form {
     border: none;
     background: transparent;
     font-size: 1.1em;
+    text-decoration: underline;
+    color: $link-colour;
     text-decoration: underline;
     cursor: pointer;
 

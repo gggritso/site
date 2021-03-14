@@ -31,10 +31,11 @@
 			{% endcapture %}
 			{{ include_to_scssify | scssify }}
 		</style>
+
+		<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 	</head>
 
 	<body>
 		{{ content }}
-		<link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 	</body>
 </html>

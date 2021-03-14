@@ -1,26 +1,45 @@
 article {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 
   @media screen and (min-width: 767px) {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
   }
 
   @media screen and (min-width: 1279px) {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.5;
   }
 
   > h1 {
+    display: inline-block;
+    position: relative;
+    font-family: "EB Garamond", "Georgia", serif;
+
     margin-bottom: 0.1em;
-    padding-bottom: 0;
+    padding: 4px 0;
 
     font-size: 1.8em;
     line-height: 1.1em;
     letter-spacing: -0.04em;
 
-    text-align: center;
+    text-align: left;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 1%;
+      right: 1%;
+      z-index: -1;
+      transform: skewX(-15deg);
+
+      background-color: $text-select-colour;
+
+    }
 
     @media screen and (min-width: 767px) {
       font-size: 2.5em;
@@ -41,26 +60,30 @@ article {
     letter-spacing: -0.04em;
 
     font-weight: 300;
-    text-align: center;
+    text-align: left;
+
+    &.post-subtitle {
+      text-indent: 1em;
+    }
 
     @media screen and (min-width: 767px) {
       letter-spacing: -0.02em;
     }
 
     @media screen and (min-width: 1279px) {
-      font-size: 1.2em;
+      font-size: 1.4em;
       letter-spacing: -0.04em;
     }
 
   }
 
   > h3 {
-    font-size: 0.8em;
+    font-size: 1em;
 
     text-transform: uppercase;
 
     font-weight: 300;
-    text-align: center;
+    text-align: left;
   }
 
 }
@@ -68,7 +91,11 @@ article {
 .post-header,
 .post-footer {
   text-align: center;
-  padding: 2em;
+  padding: 1em;
+
+  @media screen and (min-width: 1279px) {
+    padding: 2em;
+  }
 }
 
 .post-footer {

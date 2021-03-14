@@ -1,16 +1,33 @@
 a {
-  color: $link-color;
+  color: $link-colour;
+  text-decoration: underline;
 
   @include transition(0.25s color);
 
+  &::before {
+    font-size: 12px;
+    content: "";
+  }
+
   &:hover {
-    color: $link-highlight-color;
+    color: $link-highlight-colour;
   }
 
   &.back-button {
-    font-size: 1.6em;
-    letter-spacing: -0.05em;
     padding: 0.2em;
+
+    font-size: 1.4em;
+    letter-spacing: -0.05em;
+
     text-decoration: none;
+    color: $back-link-colour;
+
+    &:hover {
+      color: $link-highlight-colour;
+    }
+
+    @media screen and (min-width: 1279px) {
+      font-size: 1.4em;
+    }
   }
 }

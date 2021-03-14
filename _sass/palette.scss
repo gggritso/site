@@ -1,6 +1,9 @@
-$background-colour: lighten(#FEF4FF, 2%);
-$highlight-colour: darken(#998FB8, 20%);
-$text-select-colour: $highlight-colour;
+$background-colour: #FAFAFA;
+$text-select-colour: #F2E635;
 $text-colour: #000000;
-$link-color: $highlight-colour;
-$link-highlight-color: darken(desaturate(adjust-hue($highlight-colour, -3), 18.23), 7.45);
+$link-colour: #FA2180;
+$back-link-colour: $link-colour;
+$link-highlight-colour: darken($link-colour, 20);
+$code-colour: #333333;
+$code-background-colour: #FFFFFF;
+$border-colour: #F2E635;
