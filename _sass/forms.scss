@@ -3,7 +3,6 @@ form {
   margin-top: 3em;
 
   text-align: left;
-  font-size: 0.75em;
 
   input {
     font-family: inherit;
@@ -15,7 +14,7 @@ form {
     font-size: 1.1em;
     text-decoration: underline;
     color: $link-colour;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer;
 
     &:hover {
@@ -29,6 +28,8 @@ form {
     font-family: inherit;
     font-size: inherit;
     padding: 10px;
-    border-color: $text-colour;
+    border: 1px solid $border-colour;
+
+    border-radius: 3px;
   }
 }
