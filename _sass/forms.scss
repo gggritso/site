@@ -2,23 +2,25 @@ form {
   width: 75%;
   margin-top: 3em;
 
-  text-align: left;
-
   input {
     font-family: inherit;
   }
 
   input[type="submit"] {
-    font-family: "Inter", "Helvetica", sans-serif;
+    padding: 10px 15px;
     border: none;
-    background: var(--link-colour);
-    color: white;
+
+    font-family: "Inter", "Helvetica", sans-serif;
     font-size: 0.9em;
     text-transform: uppercase;
-    cursor: pointer;
-    padding: 10px 15px;
     font-weight: 600;
     letter-spacing: 0.05em;
+
+    color: white;
+    background: var(--link-colour);
+
+    cursor: pointer;
+
     border-radius: 2px;
 
     &:hover {
@@ -28,11 +30,12 @@ form {
 
   textarea {
     width: 100%;
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid var(--border-colour);
 
     font-family: inherit;
     font-size: inherit;
-    padding: 10px;
-    border: 1px solid #CCC;
 
     border-radius: 3px;
   }

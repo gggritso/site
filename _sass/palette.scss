@@ -9,16 +9,20 @@ $highlighter-pink: #FA2180;
 
 :root {
   --text-colour: #{$off-black};
+  --background-colour: #{$off-white};
+
   --text-select-colour: #{$bright-white};
   --text-select-background-colour: #{$highlighter-pink};
-  --background-colour: #{$off-white};
+
   --link-colour: #{$highlighter-pink};
 
   --heading-background-colour: #{$highlighter-yellow};
+
   --code-colour: #{$highlighter-pink};
   --code-background-colour: #{$bright-white};
   --code-border-colour: #{rgba( $highlighter-pink, 0.25 )};
 
   --blockquote-border-colour: #{$highlighter-pink};
-  --border-colour: #{$highlighter-yellow};
+
+  --border-colour: #CCCCCC;
 }

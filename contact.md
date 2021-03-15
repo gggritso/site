@@ -7,5 +7,5 @@ layout: post
 <form netlify name="contact" action="/thanks/" method="POST">
 	<textarea name="message" rows="5"></textarea>
 	<br>
-	<input type="submit" value="Send" />
+	<input type="submit" value="↪ Send" />
 </form>

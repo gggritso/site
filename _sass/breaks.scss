@@ -1,8 +1,7 @@
 hr {
 	height: 1px;
-	border: 0;
 	margin-top: 2em;
 	margin-bottom: 2em;
-
-	border-top: solid 1px #CCC;
+	border: 0;
+	border-top: solid 1px var(--border-colour)
 }

@@ -1,16 +1,17 @@
 @import "./rouge-theme";
 
-p > code {
-	padding: 5px;
-}
-
 pre > code {
 	display: block;
 	width: 100%;
-	padding: 3em;
+	padding: 2em;
 
 	white-space: pre-wrap;
 	background: white;
+	overflow-x: auto;
+
+	@media screen and (min-width: 767px) {
+		padding: 3em;
+  }
 }
 
 code {
@@ -18,7 +19,7 @@ code {
 	display: inline-block;
 	top: -1px;
 	font-family: "Roboto Mono";
-	padding: 2px 7px;
+	padding: 4px 7px;
 	margin: 2px 0;
 
 	font-size: 0.8em;

@@ -4,24 +4,19 @@
 
 	line-height: 1.4;
 
-	text-align: left;
-
 	li {
-		list-style: none;
 		margin-bottom: 0;
 		padding-bottom: 3em;
+		list-style: none;
 	}
 
 	.post-link {
-		color: var(--text-colour);
-		text-decoration: none;
-
     font-family: "Inter", "Helvetica", sans-serif;
     font-size: 1.25em;
-    // letter-spacing: -0.04em;
-
+		text-decoration: none;
     font-weight: 600;
-    text-align: left;
+
+		color: var(--text-colour);
 
 		&:hover {
 			text-decoration: underline;
@@ -29,15 +24,12 @@
 	}
 
 	.post-link-subtitle {
-		font-family: "Georgia";
-		font-style: italic;
-		opacity: 0.7;
-		font-size: 0.9em;
 		margin: 0;
-	}
 
-	.post-link.highlighted {
-		font-size: 1.5em;
-	}
+		font-family: "Georgia", serif;
+		font-size: 0.9em;
+		font-style: italic;
 
+		opacity: 0.7;
+	}
 }

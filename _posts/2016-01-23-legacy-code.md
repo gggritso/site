@@ -7,6 +7,7 @@ subtitle: The noblest pursuit of our weekdays
 I make the “joke” that any given company is either currently fixing legacy code, or generating it. It’s not a great joke.
 
 > Whatever is rightly done, however humble, is noble.
+>
 > — Henry Royce
 
 Royce was the “Royce” of “Rolls-Royce”. I can’t speak to his nobility, but because he worked on a flour mill and was bone broke for a lot of his life I assume he was forced to be humble for at least some of it. Unlike hubris, laziness, and impatience, humility is not a developer virtue.
@@ -14,6 +15,7 @@ Royce was the “Royce” of “Rolls-Royce”. I can’t speak to his nobility,
 Originally, I was going to implore programmers to be humble, and to take on the work that no one else will do because it is wrongly perceived as being boring and painful. I don’t _want_ to convince anyone of that though, because it’s hard and kind of pointless. Instead, I’m going to defend that maintaining legacy code is some of the best work a coder _can_ do. Legacy can and should be valuable, interesting and _healthy_.
 
 > Another flaw in the human character is that everybody wants to build and nobody wants to do maintenance.
+>
 > — Kurt Vonnegut
 
 Greenfield projects used to fill me with a sense of freedom and opportunity, like a half-day Wednesday. These days, instead I have dread of all the utter bullshit work that I’ll definitely have to deal with. In my heart, I know that starting a new project has the following steps:

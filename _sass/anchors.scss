@@ -4,36 +4,23 @@ a {
 
   @include transition(0.25s color);
 
-  &::before {
-    font-size: 12px;
-    content: "";
-  }
-
   &:hover {
     text-decoration: none;
   }
 
   &.back-button,
   &.contact-button {
-    padding: 0.2em;
-
-    font-size: 0.9em;
-    // letter-spacing: -0.05em;
+    font-family: "Inter", "Helvetica", sans-serif;
+    font-size: 1.0em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
 
     text-decoration: none;
     color: var(-link-colour);
-    font-family: "Inter", "Helvetica", sans-serif;
-
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 0.05em;
 
     &:hover {
       text-decoration: underline;
-    }
-
-    @media screen and (min-width: 1279px) {
-      font-size: 1em;
     }
   }
 }
