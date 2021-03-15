@@ -11,12 +11,11 @@ subtitle: Info, projects, essays
 	</li>
 </ul>
 
-<hr />
-
 <ul class="posts-list">
 {% for post in site.posts %}
 	<li>
 		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		<p class="post-link-subtitle">{{ post.subtitle}}</p>
 	</li>
 {% endfor %}
 </ul>

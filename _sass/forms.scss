@@ -9,13 +9,17 @@ form {
   }
 
   input[type="submit"] {
+    font-family: "Inter", "Helvetica", sans-serif;
     border: none;
-    background: transparent;
-    font-size: 1.1em;
-    text-decoration: underline;
-    color: var(--link-colour);
-    text-decoration: none;
+    background: var(--link-colour);
+    color: white;
+    font-size: 0.9em;
+    text-transform: uppercase;
     cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
 
     &:hover {
       text-decoration: none;
@@ -28,7 +32,7 @@ form {
     font-family: inherit;
     font-size: inherit;
     padding: 10px;
-    border: 1px solid var(--border-colour);
+    border: 1px solid #CCC;
 
     border-radius: 3px;
   }

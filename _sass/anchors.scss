@@ -18,7 +18,6 @@ a {
     padding: 0.2em;
 
     font-size: 0.9em;
-    opacity: 0.9;
     // letter-spacing: -0.05em;
 
     text-decoration: none;
@@ -34,7 +33,7 @@ a {
     }
 
     @media screen and (min-width: 1279px) {
-      font-size: 1.4em;
+      font-size: 1em;
     }
   }
 }

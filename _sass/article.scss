@@ -115,15 +115,25 @@ article {
     }
   }
 
+  > ol {
+    padding-left: 2em;
+    li {
+      padding-left: 10px;
+      margin-bottom: 0;
+    }
+  }
+
 }
 
 .post-header,
 .post-footer {
-  text-align: center;
-  padding: 1em;
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
   @media screen and (min-width: 1279px) {
-    padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
 
