@@ -1,6 +1,7 @@
 ---
 title:  Recursively-Cleaning Parameters
-permalink:  self-cleaning-parameters
+permalink: self-cleaning-parameters
+subtitle: Kind of like overloading functions
 ---
 
 One of the best ways I know to learn idiomatic patterns for programming is to read the source of libraries written by people who know what they're doing. I do this every now and again and go spelunking for tips. I spotted this in [page.js](https://github.com/visionmedia/page.js):

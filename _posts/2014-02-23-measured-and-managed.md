@@ -1,6 +1,7 @@
 ---
 title:	"Measured and Managed"
 permalink:	measured-and-managed
+subtitle: Using Reporter.app
 ---
 
 > What gets measured gets managed.
