@@ -4,9 +4,7 @@ subtitle: With many simplifications and bad assumptions
 permalink: quantum-entanglement
 ---
 
-This morning I was challenged to explain quantum entanglement. Normally I'd blow this off, but I'm sick and unemployed and this is interesting, so I'm taking it on.
-
-Quantum Mechanics is a really interesting field and it has the fun property of sounding really intense and magical. If I wave away even a bit of the voodoo, I'll feel good about it.
+This morning I was challenged to explain quantum entanglement. Normally I'd blow this off, but I'm sick and unemployed and this is interesting, so I'm taking it on. Quantum Mechanics is a really interesting field and it has the fun property of sounding really intense and magical. If I wave away even a bit of the voodoo, I'll feel good about it.
 
 ## Working From Last Principles
 

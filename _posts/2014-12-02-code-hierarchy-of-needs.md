@@ -1,6 +1,6 @@
 ---
 title:	"Code Hierarchy of Needs"
-subtitle: Maslow would not approve of this.
+subtitle: Maslow would not approve of this
 ---
 
 *Physiological:* the code compiles, runs successfully, and fulfills its purpose on specified platforms. No one has bothered to even ask about bugs yet.

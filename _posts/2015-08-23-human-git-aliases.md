@@ -1,5 +1,5 @@
 ---
-title: Human Git Aliases
+title: Humane Git Aliases
 subtitle: Stubbornly Refusing to Speak The Computer's Language
 permalink: human-git-aliases
 ---

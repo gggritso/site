@@ -1,6 +1,6 @@
 ---
 title:  Bizarre, Crazy, Bad Stupid Ideas For a Social Network
-subtitle: At least it would be different.
+subtitle: Think outside the box
 ---
 
 I just woke up one morning and was filled with all these insane ideas for an online social networking website. I'm surrounded by people pissed off by the lack of innovation in social media, and the lack of safe and interesting spaces online. I _seriously_ doubt any of this will solve anything, but I've never seen any of this implemented, so I thought it worth sharing. I don't want to call it a social network though, I'm just going to call it "this thing".
