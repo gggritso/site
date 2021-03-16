@@ -1,19 +1,17 @@
 ---
 title: Different Domains, Different Usernames
 permalink: different-domains-different-usernames
-subtitle: None of My Usernames Match
+subtitle: I don't want to even know what my usernames are
 ---
 
-A week after I installed 1Password I no longer knew any of my passwords, which was a bizarre thing to say out loud. I was released from coming up with passwords, and from remembering them. My passwords were all secure and all different, which is a big win for security. Now that it’s been a few years I am going to do the same thing for my usernames.
+Once it dawned on me that all my passwords are 1) secure and 2) different and 3) unknown to me, I became obsessed with the idea that I can give my usernames the same treatment. With 1Password I don't need to worry about any of that! I can make my Twitter username `9844B381-046B-4756-BCE3-0D2006C478E3` if I wanted! Just imagine! I don't know why this is _so_ compelling, but having non-matching usernames is the kind of pointlessly shady move that's very on-brand for me.
 
-I don’t want to re-use passwords to avoid getting hacked. I don’t want to re-use usernames to avoid getting tracked. I think what I really want is to have a different username everywhere, and now I can do it.
-
-> A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.
+> Look, it's not in my nature to be mysterious. But I can't talk about it and I can't talk about why.
 >
-> — Ralph Waldo Emerson
+> — Rusty Ryan (Ocean's 12)
 
-A consistent identity (username and avatar) is prescribed to most professionals on the internet. This makes it easy for someone to discover a person. This is my work, these are my photos, these are my funny jokes. I am fine to opt out of this. These are my writings. Who I am is not particularly important—if it was important, I could always let you know personally.
+My thinking is that it should be at least a _little_ harder to piece together information about me online. Back when I was a "young professional," (I still am, but I was one, too) and I was really into meetups, it seemed very important to have a consistent online identity. Otherwise, how are people going to _find_ me, and offer me _work_ and _opportunities_? I guess I really felt the pressure and the expectation that since I'm a developer I should be all over GitHub, and I should be blogging, and, I don't know, Tweeting my opinions about Angular or whatever. Who'd hire me otherwise? Now it's ten years later, and I've become grouchy and distrustful, and I don't want any of that, and also I'm busy and I think my resume is probably fine, and I'm not looking for any "opportunities" but thank you.
 
-This might seem shady, but privacy is privacy! A determined bad actor will probably be able to piece it all together, and that’s okay. I just don’t want anyone and everyone to track down all of my existence all at once whenever they want without even trying. I don’t want ad services to do this, I don’t want my employers to do this, and I don’t want any internet randoms to do this.
+My usernames on different websites don't have to match. I don't need to link all my identities together. It's okay (in fact, good) that it's hard to get to my Instagram profile from my GitHub profile. My FOMO is not for anything real.
 
-I don’t have much to hide, but I’m hiding it anyway.
+I think I'd rather have the thin bit of extra privacy of disparate usernames. Anyone who has a _reason_ to know who I am can know who I am, it's totally fine. I don't have anything to hide! I just want it to be a _little_ more difficult to piece it all together. Privacy is privacy, you know?
