@@ -1,6 +1,6 @@
 ---
 title: Humane Git Aliases
-subtitle: Stubbornly Refusing to Speak The Computer's Language
+subtitle: Stubbornly refusing to speak the computer's language
 permalink: human-git-aliases
 ---
 
