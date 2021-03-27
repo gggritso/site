@@ -16,6 +16,7 @@ $highlighter-pink: #FA2180;
 
   --link-colour: #{$highlighter-pink};
 
+  --heading-colour: #{$off-black};
   --heading-background-colour: #{$highlighter-yellow};
 
   --code-colour: #{$highlighter-pink};
@@ -25,4 +26,25 @@ $highlighter-pink: #FA2180;
   --blockquote-border-colour: #{$highlighter-pink};
 
   --border-colour: #CCCCCC;
+
+  @media (prefers-color-scheme: dark) {
+    --text-colour: #{$off-white};
+    --background-colour: #{$off-black};
+
+    --text-select-colour: #{$bright-white};
+    --text-select-background-colour: #{$highlighter-pink};
+
+    --link-colour: #{$highlighter-pink};
+
+    --heading-colour: #{$off-black};
+    --heading-background-colour: #{$highlighter-yellow};
+
+    --code-colour: #{$highlighter-pink};
+    --code-background-colour: #{$dark-black};
+    --code-border-colour: #{rgba( $highlighter-pink, 0.25 )};
+
+    --blockquote-border-colour: #{$highlighter-pink};
+
+    --border-colour: #CCCCCC;
+  }
 }

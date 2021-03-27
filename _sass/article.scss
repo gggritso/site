@@ -22,6 +22,8 @@ article {
     font-size: 1.8em;
     line-height: 1.1em;
 
+    color: var(--heading-colour);
+
     &::after {
       content: "";
       display: block;
