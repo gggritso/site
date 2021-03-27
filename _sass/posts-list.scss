@@ -10,6 +10,20 @@
 		list-style: none;
 	}
 
+	.post-date {
+		margin-top: 2em;
+    margin-bottom: 0em;
+
+    font-family: "Inter", "Helvetica", sans-serif;
+    font-size: 0.75em;
+
+    text-transform: uppercase;
+    opacity: 0.9;
+    letter-spacing: 0.05em;
+
+    font-weight: 300;
+	}
+
 	.post-link {
     font-family: "Inter", "Helvetica", sans-serif;
     font-size: 1.25em;
