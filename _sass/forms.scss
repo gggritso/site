@@ -29,15 +29,19 @@ form {
     }
   }
 
+  input[type="email"],
   textarea {
-    width: 100%;
-    margin-bottom: 1em;
     padding: 10px;
     border: 1px solid var(--border-colour);
+    margin-bottom: 1em;
 
     font-family: inherit;
     font-size: inherit;
 
     border-radius: 3px;
+  }
+
+  textarea {
+    width: 100%;
   }
 }
